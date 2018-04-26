@@ -17,9 +17,9 @@ import cpath.Workpackage;
  * Used to test the implementation with the example given in the exercise sheet
  * 
  * @author Jena Satkunarajan, 2965839, st116472@stud.uni-stuttgart.de
- * @author
- * @author
- * @author
+ * @author Jonas Allali, 2965826, st116462@stud.uni-stuttgart.de
+ * @author Heinlich Pauli, 324875
+ * @author Timo Hüttner, 3220544, st148236@stud.uni-stuttgart.de
  *
  */
 public class Exercise1Test {
