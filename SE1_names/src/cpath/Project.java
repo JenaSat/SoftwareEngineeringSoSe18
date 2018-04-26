@@ -8,8 +8,8 @@ import java.util.Stack;
 
 /**
  * @author Jena Satkunarajan, 2965839, st116472@stud.uni-stuttgart.de
- * @author Jonas Allali, 2965826
- * @author Heinlich Pauli, 324875
+* @author Jonas Allali, 2965826, st116462@stud.uni-stuttgart.de
+ * @author Heinrich Pauli, 324875
  * @author Timo Hüttner, 3220544, st148236@stud.uni-stuttgart.de
  * 
  * 
@@ -57,11 +57,16 @@ public class Project {
 		 * 
 		 */
 		for (Workpackage startNode : this.startNodes) {
+			allNodes.add(startNode);
 			startNode.setEarliestStart(0);
 			startNode.setEarliestFinish(startNode.getDuration());
 			if (startNode.getEarliestFinish() > maxEF)
 				maxEF = startNode.getEarliestFinish();
-			this.currentNodes.addAll(startNode.getSuccessors());
+			if (!startNode.getSuccessors().isEmpty()) {
+				this.currentNodes.addAll(startNode.getSuccessors());
+			} else {
+				endNodes.add(startNode);
+			}
 		}
 
 		/*
@@ -71,6 +76,7 @@ public class Project {
 		 */
 		while (!this.currentNodes.isEmpty()) {
 			Workpackage currNode = currentNodes.pop();
+			allNodes.add(currNode);
 			currNode.setEarliestStart(this.getMaxEFOfPred(currNode));
 			currNode.setEarliestFinish(currNode.getEarliestStart() + currNode.getDuration());
 			if (currNode.getEarliestFinish() > maxEF)
