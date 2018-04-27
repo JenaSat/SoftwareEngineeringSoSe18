@@ -18,7 +18,7 @@ import cpath.Workpackage;
  * 
  * @author Jena Satkunarajan, 2965839, st116472@stud.uni-stuttgart.de
  * @author Jonas Allali, 2965826, st116462@stud.uni-stuttgart.de
- * @author Heinrich Pauli, 324875
+ * @author Heinrich Pauli, 324875, st150482@stud.uni-stuttgart.de
  * @author Timo Hüttner, 3220544, st148236@stud.uni-stuttgart.de
  *
  */
