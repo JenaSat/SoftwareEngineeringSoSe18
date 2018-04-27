@@ -9,9 +9,10 @@ Repository for the SE exercises, summer term 2018
 
 ### Aufgabe 2:
 - Bei der A hab ich keine Ahnung, tbh.
-- Bei der B glaube ich nicht, dass was ihr da habt so stimmt. Ihr kommt bei euch da irgendwie auf 64 statt 62 Arbeitstage
+- Bei der B glaube ich nicht, dass was ihr da habt so stimmt. Ihr kommt bei euch da irgendwie auf 64 statt 62 Arbeitstage( Bei meiner b müssten es 18 statt 17 tage im endsatz sein, hab mich wohl verschrieben.) 
 - Die Tage Sollten vlt. in arbeitstage umbenannt werden, da es sich ja nicht um 24h arbeiten und auch nicht um Sonntagsarbeit(hoffentlich!) handelt
--c und d stimme ich so zu!
+-Wie kommt ihr bei c auf die 63 tage aus 62 tagen?
+- d stimme ich so zu.
 
 ### Aufgabe 3: 
 - Habe gesehen, dass bei der a schon n diagramm gemacht wurde? Hab da gerade um die uhrzeit keine lust mehr eins zu erstellen.
