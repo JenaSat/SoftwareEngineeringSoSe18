@@ -1,0 +1,87 @@
+\documentclass[12pt,pdftex,a4paper]{article}
+
+%------------------------------------------------------------Packages------------------------------------------------------------
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=2cm, right=2cm, top=1.50cm, bottom=1.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\onehalfspacing
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+%------------------------------------------------------------Packages------------------------------------------------------------
+
+%------------------------------------------------------------Title---------------------------------------------------------------
+\title{\vspace{-1cm} Software Engineering \\ Übungsblatt 2}
+\date{\today}
+\makeatletter
+\let\gruppe\@author
+\let\titel\@title
+\makeatother
+\pagestyle{fancy}
+\lhead{SE, Blatt 2}
+\rhead{2965826, 3220544, 3245875, 2965839\\ Jonas Allali, Timo Hüttner, Heinrich Pauli, Jena Satkunarajan}
+\headheight = 15pt
+\topmargin = -35pt
+%------------------------------------------------------------Title---------------------------------------------------------------
+
+
+\begin{document}
+
+%------------------------------------------------------------Set Up Title Page---------------------------------------------------
+\setlength{\parindent}{0pt}
+\maketitle
+\thispagestyle{fancy}
+%------------------------------------------------------------Set Up Title Page---------------------------------------------------
+
+
+%------------------------------------------------------------Content-------------------------------------------------------------
+
+%The percentage symbol is used for comments, so this is a comment. Hi.
+
+%this will automatically enumerate your subject
+\section*{Aufgabe 1: Kano-Modell}
+
+%this won't, so you may add it yourself
+\section*{a) }
+1) \textbf{Basismerkmale} \\
+\textit{Beschreibung}: Mindestanforderungen, die als vorausgesetzt gelten und den User nicht unbedingt beeindrucken.\newline
+\textit{Beispieleigenschaften}: Touchbedienung\\
+
+2) \textbf{Leistungsmerkmale}\\
+\textit{Beschreibung}: Eigenschaften, die dem User bewusst sind und ihn zufrieden stellen, wenn diese Eigenschaften (in großem Ausmaß) vorhanden sind. \newline
+\textit{Beispieleigenschaften}: hohe Akkulaufzeit\\
+
+3) \textbf{Begeisterungsmerkmale}\\
+\textit{Beschreibung}: Unerwartete Zusätze, die den User begeistern.\newline
+\textit{Beispielsmerkmale}: Fingerprint-Sensor zum Entsperren des Sperrbildschirmes\\
+
+4) \textbf{Unerhebliche Merkmale}\\
+\textit{Beschreibung}: Für den User triviale Eigenschaften, die keine Zufriedenheit/Empörung auslösen.\newline
+\textit{Beispielsmerkmale}: Lokalisierung von SD-, Sim- , und Akkuslot. (Dem User ist es egal, wo genau diese Slots im Smartphone liegen.)\\
+
+5) \textbf{Rückweisungs-Merkmale}\\
+\textit{Beschreibung}: Eigenschaften, die bei Vorhandensein zu Unzufriedenheit und bei Fehlen aber nie zu Zufriedenheit führen.\newline
+\textit{Beispielsmerkmale}: schnelles Erhitzen\\
+
+
+
+\section*{b)}
+\textbf{dysfunktionale Frage}: "Was würden Sie davon halten, wenn unser Smartphone keinen Fingerprint-Sensor eingebaut hätte?"
+\section*{c)}
+\textbf{funktionale Frage}: "Was würden Sie davon halten, wenn unser Smartphone sich schnell erhitzen würde?"
+\section*{d)}
+Leistungs- und Begeisterungsmerkmale können im Laufe der Zeit zu Basismerkmalen werden, da sich die User daran gewöhnt haben und sich somit diese Eigenschaften in der Gesellschaft etabliert haben.\\
+Die Touchbedienung zum Beispiel war zu Release ein Begeisterungsmerkmal, da Handys auch ohne auskommen können, aber die Bedienung dadurch stark vereinfacht wird. Heutzutage ist dieses Feature kaum noch mehr wegzudenken und ist somit zu einem Basismerkmal geworden. 
+
+
+\end{document}
